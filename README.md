@@ -1,6 +1,6 @@
 # grant-perturbation-analysis
 
-Repository containing reference code and details for the paper "Evaluating LLM-Based Grant Proposal Review via Structured Perturbations" ([ArXiv](https://arxiv.org/abs/2603.08281)).
+Repository containing reference code and details for the paper "Evaluating LLM-Based Grant Proposal Review via Structured Perturbations"
 
 ## Setup
 
@@ -83,18 +83,4 @@ INSPECT_LOG_DIR=./logs_20b uv run inspect eval perturbation_detection.py \
   --top-p 1.0 \
   --retry-on-error=3 \
   --continue-on-fail
-```
-
-## Citation
-
-```bibtex
-@misc{thorne2026evaluatingllmbasedgrantproposal,
-      title={Evaluating LLM-Based Grant Proposal Review via Structured Perturbations}, 
-      author={William Thorne and Joseph James and Yang Wang and Chenghua Lin and Diana Maynard},
-      year={2026},
-      eprint={2603.08281},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2603.08281}, 
-}
 ```

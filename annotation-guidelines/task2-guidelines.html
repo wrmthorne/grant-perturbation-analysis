@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Annotator Guide: EPSRC Review Comment Evaluation</title>
+    <style>
+        :root {
+            --a4-width: 210mm;
+            --epsrc-blue: #004a99;
+            --light-blue: #e7f3ff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #525659;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .page {
+            width: var(--a4-width);
+            min-height: 297mm;
+            padding: 20mm;
+            margin: 10px auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            box-sizing: border-box;
+        }
+
+        h1 {
+            color: var(--epsrc-blue);
+            border-bottom: 3px solid var(--epsrc-blue);
+            padding-bottom: 10px;
+            margin-top: 0;
+            font-size: 24pt;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        h2 {
+            color: #0056b3;
+            margin-top: 25px;
+            font-size: 16pt;
+            border-left: 5px solid var(--epsrc-blue);
+            padding-left: 15px;
+        }
+
+        h3 {
+            color: #0056b3;
+            margin-top: 20px;
+            font-size: 13pt;
+        }
+
+        p, li {
+            font-size: 11pt;
+        }
+
+        .highlight-box {
+            background-color: var(--light-blue);
+            border: 1px solid #b3d7ff;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        .warning-box {
+            background-color: #fff3cd;
+            border-left: 5px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            table-layout: fixed;
+        }
+
+        th {
+            background-color: var(--epsrc-blue);
+            color: white;
+            text-align: left;
+            padding: 10px;
+            font-size: 10pt;
+        }
+
+        td {
+            padding: 10px;
+            border: 1px solid #ccc;
+            vertical-align: top;
+            font-size: 10pt;
+            word-wrap: break-word;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 3px;
+            font-weight: bold;
+            font-size: 9pt;
+            color: white;
+            text-align: center;
+            width: 90%;
+        }
+
+        .pivotal { background-color: #b71c1c; }
+        .substantially { background-color: #e65100; }
+        .some { background-color: #fbc02d; color: #000; }
+        .little { background-color: #4caf50; }
+        .none { background-color: #757575; }
+
+        .example {
+            background-color: #f5f5f5;
+            padding: 12px;
+            margin: 15px 0;
+            border-left: 3px solid #666;
+            font-style: italic;
+        }
+
+        .task-steps {
+            background-color: #e8f5e9;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        .task-steps ol {
+            margin: 10px 0;
+            padding-left: 25px;
+        }
+
+        .task-steps li {
+            margin: 8px 0;
+            font-weight: 500;
+        }
+
+        .footer {
+            margin-top: 40px;
+            font-size: 9pt;
+            color: #777;
+            text-align: center;
+            border-top: 1px solid #eee;
+            padding-top: 10px;
+        }
+
+        @media print {
+            body { background: none; padding: 0; }
+            .page { margin: 0; box-shadow: none; width: 100%; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="page">
+    <h1>Annotator Guide</h1>
+
+    <div class="note">
+        <strong>Note:</strong> You must complete the consent form if you haven't already.<br>
+        <a href="#">[REDACTED]</a>
+    </div>
+
+    <div class="warning">
+        <strong>Confidentiality:</strong> You must not copy, share, or reproduce any of the data you evaluate.
+    </div>
+
+    <div class="highlight-box">
+        <strong>Your Role:</strong> Evaluate individual reviewer comments to determine (1) whether you agree with them based on the proposal text, and (2) how much influence they should have on the final funding decision.
+    </div>
+
+    <h2>Overview: What You're Evaluating</h2>
+    <p>You will receive:</p>
+    <ul>
+        <li>A proposal excerpt (the specific section being commented on)</li>
+        <li>A single reviewer comment about that section</li>
+        <li>Relevant review guidelines and assessment criteria</li>
+        <li>A copy of the associated funding opportunity document</li>
+    </ul>
+
+    <p>For each comment, you will provide <strong>two independent judgments</strong>:</p>
+
+    <div class="task-steps">
+        <ol>
+            <li><strong>Agreement:</strong> Do you agree with the reviewer's statement based solely on what's written in the proposal?</li>
+            <li><strong>Influence:</strong> Assuming the statement is accurate, how much would it affect the final funding score?</li>
+        </ol>
+    </div>
+
+    <div class="warning-box">
+        <strong>Critical Point:</strong> Agreement and influence are separate. A comment you disagree with can still have high influence (if it were true). Conversely, you may agree with a comment that has minimal influence on funding decisions.
+    </div>
+
+    <h2>Task 1: Agreement Assessment</h2>
+    <p>Judge whether the reviewer's comment is <strong>supported by the proposal text</strong> you've been shown.</p>
+
+    <h3>Examples:</h3>
+
+    <div class="example">
+        <strong>Comment:</strong> "No contingency plans are provided for equipment failure."<br>
+        <strong>Proposal excerpt:</strong> Contains a Risk Register with mitigation strategies for equipment failure.<br>
+        <strong>Your response:</strong> <strong style="color: #c62828;">Disagree</strong>
+    </div>
+
+    <div class="example">
+        <strong>Comment:</strong> "The timeline for Phase 2 appears optimistic given the complexity."<br>
+        <strong>Proposal excerpt:</strong> Shows 6 months allocated for a multi-site experimental campaign.<br>
+        <strong>Your response:</strong> <strong style="color: #2e7d32;">Agree</strong>
+    </div>
+
+    <h2>Task 2: Influence Rating</h2>
+    <p>Rate how much this comment would affect your funding recommendation <strong>if it were accurate</strong></p>
+
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 18%;">Rating</th>
+                <th style="width: 40%;">Definition</th>
+                <th style="width: 42%;">Examples</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><span class="badge none">None</span></td>
+                <td>Purely factual or administrative. No bearing on scientific merit or deliverability.</td>
+                <td>"The PI is based at Imperial College London."<br><br>"This builds on EPSRC grant EP/X123456/1."</td>
+            </tr>
+            <tr>
+                <td><span class="badge little">Little</span></td>
+                <td>Minor issues that are easily correctable or don't affect core assessment criteria.</td>
+                <td>"Figure 3 is difficult to read."<br><br>"The bibliography uses inconsistent formatting."</td>
+            </tr>
+            <tr>
+                <td><span class="badge some">Some</span></td>
+                <td>Valid observations affecting secondary criteria. Would influence score by ±0.5 points.</td>
+                <td>"The budget justification for travel could be more detailed."<br><br>"The pathway to impact section lacks specific partner commitments."</td>
+            </tr>
+            <tr>
+                <td><span class="badge substantially">Substantially</span></td>
+                <td>Significant strengths or weaknesses directly affecting Quality or Importance. Would shift score by ±1–2 points.</td>
+                <td>"The proposed methodology represents a genuine advance over current techniques."<br><br>"The research questions lack sufficient novelty given recent publications."</td>
+            </tr>
+            <tr>
+                <td><span class="badge pivotal">Pivotal</span></td>
+                <td>Fundamental issues affecting viability or exceptional strengths. Changes fundable/non-fundable status.</td>
+                <td>"The underlying theoretical framework contradicts established principles."<br><br>"This directly addresses a critical EPSRC strategic priority with unique national capability."</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Decision Framework</h3>
+
+    <ul>
+        <li><strong>Pivotal/Substantial:</strong> Comments addressing core EPSRC criteria (Quality, Importance, Fit to Scheme)</li>
+        <li><strong>Some:</strong> Comments on secondary elements (resources, timelines, impact pathways)</li>
+        <li><strong>Little/None:</strong> Observations with no bearing on fundability</li>
+    </ul>
+
+    <h2>Key Reminders</h2>
+    <ul>
+        <li>Base your agreement <strong>only</strong> on the provided proposal excerpt and accompanying documentation</li>
+        <li>Rate influence as if the comment is true, even if you disagree with it or it is demonstrably false</li>
+        <li>Consider the comment in isolation; don't try to infer the overall proposal quality</li>
+    </ul>
+</div>
+
+</body>
+</html>
